@@ -11,5 +11,6 @@ urlpatterns = patterns('',
 
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
+    (r'^$', 'django.views.generic.simple.redirect_to', {'url': '/polls/'}),
     (r'^polls/', include('polls.urls')),
 )
