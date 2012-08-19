@@ -1,5 +1,7 @@
+*.db
 *.py[co]
 *~
+
 # Ninja IDE
 *.nja
 

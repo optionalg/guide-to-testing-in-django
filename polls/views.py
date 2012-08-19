@@ -5,7 +5,8 @@ from django.shortcuts import render_to_response, get_object_or_404
 from django.template import RequestContext
 from polls.forms import PollForm
 from polls.models import Poll, Choice
-from inspector_panel.panels.inspector import debug
+#from inspector_panel.panels.inspector import debug
+from inspector_panel import debug
 
 
 def index(request):
